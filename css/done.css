@@ -1,0 +1,897 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+
+@font-face {
+                          font-family: "SFProDisplay-Medium";
+                          src: url('../fonts/SF-Pro-Display-Medium.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "SFProDisplay-Light";
+                          src: url('../fonts/SF-Pro-Display-Light.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "SFProDisplay-Regular";
+                          src: url('../fonts/SF-Pro-Display-Regular.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "SFProDisplay-Bold";
+                          src: url('../fonts/SF-Pro-Display-Bold.otf') format("opentype");
+                        }
+                        
+.done {
+  width               : 100%;
+  min-width           : 1900px;
+  height              : 100vh;
+  min-height          : 1080px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-animate-enter10 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter10-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter10-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter10-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter10-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter11 {
+  opacity             : 0;
+  transform           : rotate(25deg);
+  display             : block;
+  -webkit-animation   : anima-animate-enter11-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter11-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter11-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter11-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@-moz-keyframes anima-animate-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@-o-keyframes anima-animate-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@keyframes anima-animate-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+.done .navbarcopy {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -1px;
+  top                 : 0px;
+  height              : 120px;
+  width               : 1921px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .navbarcopy .navbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 1921px;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .navbarcopy .cura {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 150px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "Karla", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 48.0px;
+  color               : rgba(8, 8, 8, 1.0);
+  text-align          : left;
+  line-height         : 56.0px;
+}
+.done .navbarcopy .cura:hover {
+  transform           : translate(0, -5px);
+}
+.done .navbarcopy .howitworks {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1106px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(107, 107, 107, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.done .navbarcopy .howitworks:hover {
+  transform           : scale(1.1);
+}
+.done .navbarcopy .faq {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1343px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(107, 107, 107, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.done .navbarcopy .faq:hover {
+  transform           : scale(1.1);
+}
+.done .navbarcopy .download {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1441px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(8, 8, 8, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.done .navbarcopy .download:hover {
+  transform           : scale(1.1);
+}
+.done .navbarcopy .ourmission {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1227px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(107, 107, 107, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.done .navbarcopy .ourmission:hover {
+  transform           : scale(1.1);
+}
+.done .alldone {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 388px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Karla", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 64.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : left;
+  line-height         : 75.0px;
+}
+.done .undrawcompletedngx6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 192px;
+  height              : 781px;
+  width               : 738px;
+  position            : absolute;
+  margin              : 0;
+  left                : 969px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : 648px;
+  width               : 648px;
+  position            : absolute;
+  margin              : 0;
+  left                : 90px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 341px;
+  height              : 150px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 195px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 315px;
+  height              : 43px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 195px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 288px;
+  height              : 43px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 195px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 355px;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 176px;
+  height              : 179px;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+}
+.done .undrawcompletedngx6 .shape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 431px;
+  height              : 327px;
+  width               : 615px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 431px;
+  height              : 327px;
+  width               : 615px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+}
+.done .undrawcompletedngx6 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 245px;
+  height              : 634px;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  -ms-transform       : rotate(-74.3241882324deg); /* IE 9 */
+  -webkit-transform   : rotate(-74.3241882324deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-74.3241882324deg);
+}
+.done .undrawcompletedngx6 .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 540px;
+  height              : 54px;
+  width               : 186px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+}
+.done .undrawcompletedngx6 .shape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 406px;
+  height              : 166px;
+  width               : 227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 208px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 406px;
+  height              : 166px;
+  width               : 227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 208px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+}
+.done .undrawcompletedngx6 .shape7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 401px;
+  height              : 165px;
+  width               : 225px;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 606px;
+  height              : 35px;
+  width               : 65px;
+  position            : absolute;
+  margin              : 0;
+  left                : 420px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 602px;
+  height              : 32px;
+  width               : 65px;
+  position            : absolute;
+  margin              : 0;
+  left                : 507px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .oval5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 198px;
+  height              : 47px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 456px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 226px;
+  height              : 33px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 474px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 310px;
+  height              : 96px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 526px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 358px;
+  height              : 255px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 443px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 186px;
+  height              : 53px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 454px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 244px;
+  height              : 158px;
+  width               : 94px;
+  position            : absolute;
+  margin              : 0;
+  left                : 451px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 282px;
+  height              : 38px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 528px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 301px;
+  height              : 131px;
+  width               : 65px;
+  position            : absolute;
+  margin              : 0;
+  left                : 414px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 255px;
+  height              : 52px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 448px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 365px;
+  height              : 66px;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 365px;
+  height              : 67px;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 369px;
+  height              : 63px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 346px;
+  height              : 86px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 428px;
+  height              : 14px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .undrawcompletedngx6 .shape23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 432px;
+  height              : 10px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.2;
+}
+.done .downloadthecuraap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 463px;
+  height              : auto;
+  width               : 791px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Karla", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 48.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : left;
+  line-height         : 56.0px;
+}
+.done .appiosdownloadbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 663px;
+  height              : 31px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .iconandroidappongoogleplay {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 663px;
+  height              : 33px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 270px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 595px;
+  height              : 50px;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.done .group:hover {
+  transform           : scale(1.1);
+}
+.done .group .rectangle4 {
+  background-color    : rgba(96, 104, 183, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.done .group .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Karla", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
